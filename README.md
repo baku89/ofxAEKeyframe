@@ -15,13 +15,13 @@ The following code quoted from **example-Basic**:
 
 1. Add ofxAEKeyframe instance to ofApp class.
 
-	```
+	```cpp
 	ofxAEKeyframe aek;
 	```
 
 1. In `setup()`, initialize instance.
 
-	```
+	```cpp
 	aek.setFPS(29.97);
 	aek.addControlPoint();		// 0: mouse position
 	aek.addControlCheckbox();	// 1: is mouse pressed
@@ -30,7 +30,7 @@ The following code quoted from **example-Basic**:
 
 3. Add keyframes for each frame in `update()`.
 
-	```
+	```cpp
 	aek.appendFrame();
 	aek.addKey(0, ofVec2f(ofGetMouseX(), ofGetMouseY()));
 	aek.addKey(1, ofGetMousePressed());
