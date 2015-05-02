@@ -58,6 +58,6 @@ I tested my following environment.
 * optimize all the code so that does not make the app heavier
 * support older version of AE
 * support Angle Control Effect
-* support easeing for each keyframes
+* support easing for each keyframes
 
 I'm waiting for your contribution!
